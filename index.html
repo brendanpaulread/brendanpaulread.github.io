@@ -7,7 +7,7 @@
 	<meta name="author" content="@brendanpaulread" />
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="../dist/fullpage.css" />
+	<link rel="stylesheet" type="text/css" href="dist/fullpage.css" />
 	<link rel="stylesheet" type="text/css" href="examples.css" />
 
 	<!--[if IE]>
@@ -15,15 +15,15 @@
 			 var console = { log: function() {} };
 		</script>
 	<![endif]-->
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Maven+Pro&family=Playfair+Display:wght@400;900&family=Quicksand:wght@700&family=Source+Sans+Pro:wght@200;400&display=swap" rel="stylesheet">
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
 <ul id="menu">
-	<li data-menuanchor="home" class="active"><a href="#home">home</a></li>
+	<li data-menuanchor="bpr" class="active"><a href="#bpr" id="logo">bpr</a></li>
 	<li data-menuanchor="about"><a href="#about">about</a></li>
 	<li data-menuanchor="two"><a href="#two">two</a></li>
 	<li data-menuanchor="three"><a href="#three">three</a></li>
@@ -34,11 +34,11 @@
 <div id="fullpage">
 	<div class="section" id="section0">
 		<img class = "graph_logo" src="imgs/graph.png">
-		<h1>SELECT * FROM brendanpaulread</h1>
-		<p>WHERE job = "UXR @ Meta" </br> AND education = "PhD in Survey Methodology" </br> AND cat_dad = TRUE</p>
+		<p id ="sql_query" class="code_chunk">SELECT * FROM brendanpaulread </br>
+		WHERE job = "UXR @ Meta" </br> AND education = "PhD in Survey Methodology" </br> AND cat_dad = TRUE</p>
 		<a href="https://www.instagram.com/brendanpaulread/" class="fa fa-instagram"></a>
 		<a href="https://www.linkedin.com/in/brendanpaulread" class="fa fa-linkedin"></a>
-		<a href="https://github.com/brendanpaulread" class="fa fa-github"></a>		
+		<a href="https://github.com/brendanpaulread" class="fa fa-github"></a>	
 	</div>
 	<div class="section" id="section1">
 		<div class="intro">
@@ -80,12 +80,12 @@
 	</div>
 </div>
 
-<script type="text/javascript" src="../dist/fullpage.js"></script>
+<script type="text/javascript" src="dist/fullpage.js"></script>
 <script type="text/javascript" src="examples.js"></script>
 
 <script type="text/javascript">
     var myFullpage = new fullpage('#fullpage', {
-      anchors: ['home', 'about', 'two', 'three', 'four', 'five'],
+      anchors: ['bpr', 'about', 'two', 'three', 'four', 'five'],
       menu: '#menu',
       continuousVertical: true,
 	  controlArrows: true,
