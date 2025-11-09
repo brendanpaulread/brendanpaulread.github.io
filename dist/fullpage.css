@@ -77,11 +77,11 @@ html.fp-enabled,
 }
 .fp-arrow.fp-prev {
     border-width: 38.5px 34px 38.5px 0;
-    border-color: transparent #1D192B transparent transparent;
+    border-color: transparent #DDCC77 transparent transparent;
 }
 .fp-arrow.fp-next {
     border-width: 38.5px 0 38.5px 34px;
-    border-color: transparent transparent transparent #1D192B;
+    border-color: transparent transparent transparent #DDCC77;
 }
 .fp-notransition {
     -webkit-transition: none !important;

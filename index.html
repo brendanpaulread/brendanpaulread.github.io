@@ -17,15 +17,15 @@
 	<![endif]-->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Asimovian&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
 <ul id="menu">
-	<li data-menuanchor="bpr" class="active"><a href="#bpr" id="logo">bpr</a></li>
+	<li data-menuanchor="bpr" class="active"><a href="#bpr" id="logo">BPR</a></li>
 	<li data-menuanchor="about"><a href="#about">about</a></li>
-	<li data-menuanchor="two"><a href="#two">two</a></li>
+	<li data-menuanchor="work"><a href="#work">work</a></li>
 	<li data-menuanchor="three"><a href="#three">three</a></li>
 	<li data-menuanchor="four"><a href="#four">four</a></li>
 	<li data-menuanchor="five"><a href="#five">five</a></li>
@@ -33,22 +33,30 @@
 
 <div id="fullpage">
 	<div class="section" id="section0">
-		<img class = "graph_logo" src="imgs/graph.png">
+		<img src="imgs/profile.png" alt="Profile Picture" class="profile_pic"/>
 		<p id ="sql_query" class="code_chunk">SELECT * FROM brendanpaulread </br>
 		WHERE job = "UXR @ Meta" </br> AND education = "PhD in Survey Methodology" </br> AND cat_dad = TRUE</p>
 		<a href="https://www.instagram.com/brendanpaulread/" class="fa fa-instagram"></a>
 		<a href="https://www.linkedin.com/in/brendanpaulread" class="fa fa-linkedin"></a>
 		<a href="https://github.com/brendanpaulread" class="fa fa-github"></a>
-		<p>TEST</p>
 	</div>
 	<div class="section" id="section1">
 		<div class="intro">
-			<p>about</p>
+			<h1 class="slide_header">tl;dr</h1>
+			<p><i>Sociological Imagination.</i> Researcher by <s>training</s> accident.</p>
+			</br>
+			<p>Knows an unhealthy amount about surveys. <b>Still hates filling them out.</b></p>
+			</br>
+			<p>Five <s>years</s> lifetimes working in tech. Has to Google basic HTML tags.</p>
+			</br>
+			<p>Might be found in a museum or gallery. Will definitely have a book.</p>
+			</br>
+			<p>Likes cats. Has a cat. Will not shut up about his cat.</p>
 		</div>
 	</div>
 	<div class="section" id="section2">
 		<div class="intro">
-			<p>Two</p>
+			<p>work</p>
 		</div>
 	</div>
 	<div class="section" id="section3">
@@ -68,11 +76,6 @@
         </div>
 		<div class="slide" id="slide5">
         </div>
-		<div class="slide" id="slide6">
-        </div>
-		<div class="slide" id="slide7">
-        </div>
-		<div class="slide" id="slide7">        </div>
 	</div>
 	<div class="section" id="section5">
 		<div class="intro">
@@ -86,7 +89,7 @@
 
 <script type="text/javascript">
     var myFullpage = new fullpage('#fullpage', {
-      anchors: ['bpr', 'about', 'two', 'three', 'four', 'five'],
+      anchors: ['bpr', 'about', 'work', 'three', 'four', 'five'],
       menu: '#menu',
       continuousVertical: true,
 	  controlArrows: true,

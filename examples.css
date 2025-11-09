@@ -1,7 +1,3 @@
-@CHARSET "ISO-8859-1";
-/* Colour palette :https://colorhunt.co/palette/1534483c5b6f948979dfd0b8 */
-/* Graph colour scheme: https://www.learnui.design/tools/data-color-picker.html*/
-
 /* Reset CSS
  * --------------------------------------- */
  body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
@@ -57,14 +53,14 @@ abbr,acronym { border: 0;
 }
 
 h1,h2,h3,h4,h5,h6, a, p{
-	font-family: 'Roboto', monospace;
+	font-family: 'Roboto Condensed', monospace;
 }
 
 /* Custom CSS
  * --------------------------------------- */
 body{
 	font-weight: 200;
-	color:#1D192B
+	color:#dce0ff;
 }
 .wrap{
 	margin-left: auto;
@@ -73,7 +69,7 @@ body{
 	position: relative;
 }
 h1{
-	font-size: 6em;
+	font-size: 3em;
 }
 p{
 	font-size: 2em;
@@ -85,7 +81,7 @@ p{
 }
 .section{
 	text-align:center;
-	background-color: #E6E0E9;
+	background-color: #201551;
 }
 
 #menu li {
@@ -94,16 +90,16 @@ p{
 	font-weight: 200;
 }
 #menu li.active{
-	border-bottom: 3px solid #1D192B;
+	border-bottom: 3px solid #DDCC77;
 	font-weight: 400;
 }
 
 #menu li a{
 	text-decoration:none;
-	color: #1D192B;
+	color: #dce0ff;
 }
 #menu li a:hover{
-	color: #6750A4;
+	color: #DDCC77;
 }
 
 #menu li a,
@@ -131,11 +127,11 @@ p{
 	text-align: center;
 	text-decoration: none;
 	margin: 5px 2px;
-	color: #1D192B;
+	color: #999fff;
   }
   
   .fa:hover {
-	  color: #6750A4;
+	  color: #DDCC77;
   }
 
 #section0 .intro{
@@ -147,17 +143,20 @@ p{
 	font-size: medium;
 }
 
-
-.graph_logo{
-	height: 100px;
-	width: 100px;
-}
-
 .code_chunk{
 	font-family: 'Roboto Mono', monospace;
 }
 
 #menu #logo{
-	font-family: 'Roboto Mono', monospace;
+	font-family: 'Asimovian', sans-serif;
 	font-weight: 900;
+}
+
+.slide_header{
+	-webkit-text-stroke: 1px #dce0ff;
+	color: transparent;
+}
+
+.profile_pic{
+	width: 30%;
 }
